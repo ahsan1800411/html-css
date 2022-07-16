@@ -1,0 +1,35 @@
+.heading1 {
+  font-size: x-large;
+}
+
+#id1 {
+  background-color: green;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.div1 {
+  height: 120px;
+  width: 120px;
+  background-color: red;
+  padding: 12px;
+  margin-right: 5px;
+  border: 12px solid black;
+  border-radius: 50px;
+}
+.div2 {
+  height: 120px;
+  width: 120px;
+  background-color: green;
+  margin: 20px;
+}
+.div3 {
+  height: 120px;
+  width: 120px;
+  background-color: pink;
+}
