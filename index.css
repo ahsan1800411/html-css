@@ -1,35 +1,61 @@
-.heading1 {
-  font-size: x-large;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-#id1 {
-  background-color: green;
+.name1 {
+  background-color: tomato;
 }
 
-.main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+.name2 {
+  background-color: darkgreen;
 }
-.div1 {
-  height: 120px;
-  width: 120px;
-  background-color: red;
-  padding: 12px;
-  margin-right: 5px;
-  border: 12px solid black;
-  border-radius: 50px;
+/* 
+@media only screen and (max-width: 600px) {
+  .name1 {
+    background-color: blue;
+    border: 2px solid black;
+  }
+
+  .name1:hover {
+    cursor: pointer;
+    padding: 60px;
+    border: none;
+  }
+} */
+
+/* @media screen and (min-width: 800px) {
+  .name1 {
+    background-color: blue;
+    border: 2px solid black;
+  }
+
+  .name1:hover {
+    cursor: pointer;
+    padding: 60px;
+    border: none;
+  }
+} */
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .name1 {
+    background-color: blue;
+    border: 2px solid black;
+  }
+
+  .name1:hover {
+    cursor: pointer;
+    padding: 60px;
+    border: none;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
 }
-.div2 {
-  height: 120px;
-  width: 120px;
-  background-color: green;
-  margin: 20px;
-}
-.div3 {
-  height: 120px;
-  width: 120px;
-  background-color: pink;
+
+p {
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: black;
+  color: white;
 }
