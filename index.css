@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -10,7 +10,7 @@ body {
 
 .name2 {
   background-color: darkgreen;
-}
+} */
 /* 
 @media only screen and (max-width: 600px) {
   .name1 {
@@ -37,7 +37,7 @@ body {
     border: none;
   }
 } */
-
+/* 
 @media screen and (min-width: 600px) and (max-width: 800px) {
   .name1 {
     background-color: blue;
@@ -58,4 +58,28 @@ p {
   font-style: italic;
   background-color: black;
   color: white;
+}
+
+.video {
+  width: 400px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+} */
+
+.container {
+  background-color: gold;
+  width: 200px;
+}
+
+.change {
+  color: goldenrod;
+}
+.coffee {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
