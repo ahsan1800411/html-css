@@ -1,85 +1,50 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-.name1 {
-  background-color: tomato;
-}
-
-.name2 {
-  background-color: darkgreen;
-} */
-/* 
-@media only screen and (max-width: 600px) {
-  .name1 {
-    background-color: blue;
-    border: 2px solid black;
-  }
-
-  .name1:hover {
-    cursor: pointer;
-    padding: 60px;
-    border: none;
-  }
-} */
-
-/* @media screen and (min-width: 800px) {
-  .name1 {
-    background-color: blue;
-    border: 2px solid black;
-  }
-
-  .name1:hover {
-    cursor: pointer;
-    padding: 60px;
-    border: none;
-  }
-} */
-/* 
-@media screen and (min-width: 600px) and (max-width: 800px) {
-  .name1 {
-    background-color: blue;
-    border: 2px solid black;
-  }
-
-  .name1:hover {
-    cursor: pointer;
-    padding: 60px;
-    border: none;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  }
-}
-
-p {
-  font-size: 20px;
-  font-weight: bolder;
-  font-style: italic;
-  background-color: black;
-  color: white;
-}
-
-.video {
-  width: 400px;
-}
-
-ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-} */
-
-.container {
+h1 {
   background-color: gold;
-  width: 200px;
 }
 
-.change {
-  color: goldenrod;
+.class2 {
+  background-color: darkgreen;
 }
-.coffee {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
+
+/* a[target] { */
+/* color: gold;
+} */
+/* a[target='_blank'] {
+  color: gold;
+} */
+
+/* a[href='https://google.com'] */
+/* {
+  color: gold;
+} */
+/* a[href*='com'] {
+  color: gold;
+} */
+/* a[href^='https'] {
+  color: gold;
+}
+a[href$='com'] {
+  color: pink;
+} */
+
+/* a[href^='https'][href$='com'] {
+  color: coral;
+} */
+
+/* relational selectors */
+
+/* section p {
+  color: cadetblue;
+} */
+section > p {
+  color: cadetblue;
+}
+
+/* it will style only p that comes after section */
+/* section + p {
+  color: darkslateblue;
+} */
+/* it will style all p that comes after section */
+section ~ p {
+  color: darkslateblue;
 }
