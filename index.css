@@ -1,50 +1,65 @@
+/* pseudo class selector */
+/* article :first-child {
+  color: dodgerblue;
+} */
+
+/* article :first-of-type {
+  color: red;
+} */
+
+/* article p:first-of-type {
+  color: red;
+} */
+
+/* ul li:nth-child(3n) {
+  color: deeppink;
+} */
+
+/* a:visited {
+  color: darkolivegreen;
+} */
+
+/* a:visited,
+a:link {
+  color: deeppink;
+}
+a:hover,
+a:focus {
+  color: dodgerblue;
+} */
+
+/* pesudo element selector */
+
+/* p::first-letter {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+::selection {
+  background-color: pink;
+}
+
+p::before {
+  content: '...';
+  display: block;
+} */
+
+.heading#kazmi {
+  color: blueviolet;
+}
+
+#kazmi {
+  color: green;
+}
+.heading {
+  color: blue;
+}
+
 h1 {
-  background-color: gold;
-}
-
-.class2 {
-  background-color: darkgreen;
-}
-
-/* a[target] { */
-/* color: gold;
-} */
-/* a[target='_blank'] {
-  color: gold;
-} */
-
-/* a[href='https://google.com'] */
-/* {
-  color: gold;
-} */
-/* a[href*='com'] {
-  color: gold;
-} */
-/* a[href^='https'] {
-  color: gold;
-}
-a[href$='com'] {
-  color: pink;
-} */
-
-/* a[href^='https'][href$='com'] {
-  color: coral;
-} */
-
-/* relational selectors */
-
-/* section p {
-  color: cadetblue;
-} */
-section > p {
-  color: cadetblue;
-}
-
-/* it will style only p that comes after section */
-/* section + p {
-  color: darkslateblue;
-} */
-/* it will style all p that comes after section */
-section ~ p {
-  color: darkslateblue;
+  color: pink !important;
 }
